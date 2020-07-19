@@ -11,10 +11,10 @@ description = "macro galois field"
 proc-macro = true
 
 [dependencies]
-syn = { version =  "0.15", features = ["extra-traits", "full"] }
-proc-macro2 = "0.4"
-quote = "0.6"
+syn = { version =  "^0.15", features = ["extra-traits", "full"] }
+proc-macro2 = "^0.4"
+quote = "^0.6"
 
 [dev-dependencies]
-trybuild = { version = "1.0", features = ["diff"] }
-num-traits = "*"
+trybuild = { version = "^1.0", features = ["diff"] }
+num-traits = "^0.2"
