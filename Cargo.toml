@@ -5,6 +5,7 @@ authors = ["hamadakafu <kafu.h1998@gmail.com>"]
 edition = "2018"
 license = "MIT"
 license-file = "LICENSE"
+description = "macro galois field"
 
 [lib]
 proc-macro = true
